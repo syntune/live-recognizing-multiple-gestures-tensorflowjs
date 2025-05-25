@@ -26,11 +26,16 @@ for(let finger of [Finger.Index, Finger.Middle, Finger.Ring, Finger.Pinky]) {
 
 // thumb: no curl
 downGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 1.0);
+downGesture.addDirection(Finger.Thumb, FingerDirection.DiagonalDownRight, 1.0)
+downGesture.addDirection(Finger.Thumb, FingerDirection.DiagonalDownLeft, 1.0)
 
 // all other fingers: curled
 for(let finger of [Finger.Index, Finger.Middle, Finger.Ring, Finger.Pinky]) {
     downGesture.addCurl(finger, FingerCurl.FullCurl, 1.0);
     downGesture.addCurl(finger, FingerCurl.HalfCurl, 0.9);
+    
+    downGesture.addDirection(finger, FingerDirection.HorizontalRight, 1.0)
+    downGesture.addDirection(finger, FingerDirection.HorizontalLeft, 1.0)
 }
 
 
