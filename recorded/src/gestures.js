@@ -4,6 +4,7 @@ const rockGesture = new GestureDescription('rock'); // ✊️
 const paperGesture = new GestureDescription('paper'); // 🖐
 const scissorsGesture = new GestureDescription('scissors'); // ✌️
 const dontGesture = new GestureDescription('dont'); // 🙅
+const downGesture = new GestureDescription('thumbs_down'); // 👎,
 
 
 // Rock
@@ -18,6 +19,18 @@ rockGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 0.5);
 for(let finger of [Finger.Index, Finger.Middle, Finger.Ring, Finger.Pinky]) {
     rockGesture.addCurl(finger, FingerCurl.FullCurl, 1.0);
     rockGesture.addCurl(finger, FingerCurl.HalfCurl, 0.9);
+}
+
+// Thumbs Down
+// -----------------------------------------------------------------------------
+
+// thumb: no curl
+downGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 1.0);
+
+// all other fingers: curled
+for(let finger of [Finger.Index, Finger.Middle, Finger.Ring, Finger.Pinky]) {
+    downGesture.addCurl(finger, FingerCurl.FullCurl, 1.0);
+    downGesture.addCurl(finger, FingerCurl.HalfCurl, 0.9);
 }
 
 
@@ -61,7 +74,7 @@ for(const finger of Finger.all) {
 
 
 const gestures = [
-  rockGesture, paperGesture, scissorsGesture, dontGesture
+  rockGesture, paperGesture, scissorsGesture, dontGesture, downGesture
 ]
 
 export {
