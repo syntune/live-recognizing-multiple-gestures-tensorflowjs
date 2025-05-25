@@ -97,7 +97,7 @@ for(const finger of Finger.all) {
 
 
 const gestures = [
-  rockGesture, paperGesture, scissorsGesture, dontGesture, downGesture
+  rockGesture, paperGesture, scissorsGesture, dontGesture, downGesture, middleGesture
 ]
 
 export {
