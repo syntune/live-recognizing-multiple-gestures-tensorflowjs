@@ -5,6 +5,7 @@ const paperGesture = new GestureDescription('paper'); // 🖐
 const scissorsGesture = new GestureDescription('scissors'); // ✌️
 const dontGesture = new GestureDescription('dont'); // 🙅
 const downGesture = new GestureDescription('thumbs_down'); // 👎,
+const middleGesture = new GestureDescription('middle_finger'); // 🖕,
 
 
 // Rock
@@ -19,6 +20,22 @@ rockGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 0.5);
 for(let finger of [Finger.Index, Finger.Middle, Finger.Ring, Finger.Pinky]) {
     rockGesture.addCurl(finger, FingerCurl.FullCurl, 1.0);
     rockGesture.addCurl(finger, FingerCurl.HalfCurl, 0.9);
+}
+
+// Middle finger
+// -----------------------------------------------------------------------------
+
+// Like Rock but middle finger is also allowed
+middleGesture.addCurl(Finger.Thumb, FingerCurl.HalfCurl, 1.0);
+middleGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 0.5);
+
+middleGesture.addCurl(Finger.Middle, FingerCurl.HalfCurl, 1.0);
+middleGesture.addCurl(Finger.Middle, FingerCurl.NoCurl, 0.5);
+
+// all other fingers: curled
+for(let finger of [Finger.Index, Finger.Ring, Finger.Pinky]) {
+    middleGesture.addCurl(finger, FingerCurl.FullCurl, 1.0);
+    middleGesture.addCurl(finger, FingerCurl.HalfCurl, 0.9);
 }
 
 // Thumbs Down
