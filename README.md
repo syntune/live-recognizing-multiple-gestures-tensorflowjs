@@ -2,20 +2,18 @@
 
 ## About
 
+This is my custom fork for Erick's gesture recognition on real time.
+
 This is the examples shown in my live screen about [Recognizing gestures in real time right from the browser (pt-br)](https://www.youtube.com/live/MeS6dX2a2zQ?feature=share)
 
-First of all, leave your star 🌟 on this repo.
-
-Access our [**exclusive telegram channel**](https://bit.ly/canalerickwendel) so I'll let you know about all the content I've been producing 
-
 ## Complete source code
-- Access it in [app](./recorded/)
-- Checkout the [live demo](https://erickwendel.github.io/live-recognizing-multiple-gestures-tensorflowjs/recorded/). 
+- Access it in [app](https://github.com/syntune/live-recognizing-multiple-gestures-tensorflowjs/tree/main/recorded)
+- Checkout the [live demo](https://syntune.github.io/live-recognizing-multiple-gestures-tensorflowjs/recorded). 
   - It recognizes, single hand gestures 🖐,👊,✌️,👍🏻 and the multigesture 🙅
 
 
 ## Have fun!
-![THUMB---JS-EXPERTPrancheta-1](https://user-images.githubusercontent.com/8060102/219484100-3b362e7a-6a2f-4df9-b4ce-d3be64a0964a.png)
+![amour](https://static.wikia.nocookie.net/mememori/images/3/37/Amour.png/revision/latest?cb=20221018183239)
 
 ## References:
 - https://github.com/ErickWendel/fingerpose
