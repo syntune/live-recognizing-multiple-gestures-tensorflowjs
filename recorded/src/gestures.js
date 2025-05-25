@@ -30,13 +30,12 @@ for(let finger of [Finger.Index, Finger.Middle, Finger.Ring, Finger.Pinky]) {
 middleGesture.addCurl(Finger.Thumb, FingerCurl.HalfCurl, 1.0);
 middleGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 0.5);
 
-middleGesture.addCurl(Finger.Middle, FingerCurl.HalfCurl, 1.0);
-middleGesture.addCurl(Finger.Middle, FingerCurl.NoCurl, 0.5);
+middleGesture.addCurl(Finger.Middle, FingerCurl.NoCurl, 1.0);
 
 // all other fingers: curled
 for(let finger of [Finger.Index, Finger.Ring, Finger.Pinky]) {
     middleGesture.addCurl(finger, FingerCurl.FullCurl, 1.0);
-    middleGesture.addCurl(finger, FingerCurl.HalfCurl, 0.9);
+    middleGesture.addCurl(finger, FingerCurl.HalfCurl, 0.25);
 }
 
 // Thumbs Down
