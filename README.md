@@ -2,7 +2,7 @@
 
 ## About
 
-This is my custom fork for Erick's gesture recognition on real time.
+This is my custom fork for Erick's gesture recognition on real time. This version is only for public test if anyone so desires to when they somehow come across this repository. I have a more frequently updated in my files.
 
 This is the examples shown in my live screen about [Recognizing gestures in real time right from the browser (pt-br)](https://www.youtube.com/live/MeS6dX2a2zQ?feature=share)
 
