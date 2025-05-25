@@ -13,7 +13,7 @@ This is the examples shown in my live screen about [Recognizing gestures in real
 
 
 ## Have fun!
-![amour](https://static.wikia.nocookie.net/mememori/images/3/37/Amour.png/revision/latest?cb=20221018183239)
+![amour](https://static.wikia.nocookie.net/mememori/images/3/37/Amour.png)
 
 ## References:
 - https://github.com/ErickWendel/fingerpose
