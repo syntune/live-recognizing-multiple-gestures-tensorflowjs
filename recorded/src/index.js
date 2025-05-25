@@ -15,6 +15,7 @@ const landmarkColors = {
 
 const gestureStrings = {
   'thumbs_up': '👍',
+  'thumbs_down' : '👎',
   'victory': '✌🏻',
   'rock': '✊️',
   'paper': '🖐',
