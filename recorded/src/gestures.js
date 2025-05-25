@@ -25,7 +25,8 @@ for(let finger of [Finger.Index, Finger.Middle, Finger.Ring, Finger.Pinky]) {
 // Middle finger
 // -----------------------------------------------------------------------------
 
-// Like Rock but middle finger is also allowed
+// thumb: no or little curl
+// same goes for middle finger
 middleGesture.addCurl(Finger.Thumb, FingerCurl.HalfCurl, 1.0);
 middleGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 0.5);
 
