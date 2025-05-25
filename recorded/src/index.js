@@ -1,7 +1,7 @@
 
 import { gestures } from "./gestures.js"
 const config = {
-  video: { width: 1280, height: 720, fps: 30 }
+  video: { width: 640, height: 480, fps: 30 }
 }
 
 const landmarkColors = {
