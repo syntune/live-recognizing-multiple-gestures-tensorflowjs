@@ -113,6 +113,12 @@ async function main() {
 
         if(found !== gestureStrings.dont) {
           resultLayer[chosenHand].innerText = found
+          if (found === '🖕') {
+            window.open(
+              'https://www.youtube.com/watch?v=ZoNH1HJr0OQ',
+              '_blank'
+              ).focus();
+          }
           continue
         }
         checkGestureCombination(chosenHand, predictions.poseData)
